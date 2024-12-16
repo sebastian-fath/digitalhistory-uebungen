@@ -2,7 +2,7 @@
 
 ## usage
 
-- python zusaetzliche-uebungen.py -t [tasknumber] -i input
+- python zusaetzliche-uebungen.py [tasknumber]
 
 ## tasks
 
