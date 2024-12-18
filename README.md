@@ -6,7 +6,9 @@
 
 ## tasks
 
-### zusätzliche zusaetzliche
+### zusätzliche Uebungen
+!!! Diese Übungen sind sowohl als Python Datei als auch als Python Notebook verfügbar!!!
+
 
 Hier die versprochenen Übungen in aufsteigender Schwierigkeit: 
 

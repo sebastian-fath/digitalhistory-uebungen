@@ -17,7 +17,7 @@ def task_2():
         if i % 3 == 0:
             print("Digital")
         else:
-            print(str(i))
+            print(f"{i}")
         i += 1
 
 
@@ -27,7 +27,7 @@ def task_3():
         if i % 5 == 0:
             print("History")
         else:
-            print(str(i))
+            print(f"{i}")
 
 
 # Kombiniere die Schritte 2 und 3 mit einem Elif, sodass du nicht doppelt ausgibst
@@ -38,20 +38,22 @@ def task_4():
         elif i % 5 == 0:
             print("History")
         else:
-            print(str(i))
+            print(f"{i}")
 
 
-# Ersetze Zahlen die durch 3 Teilbar sind durch den String "Digital", Zahlen die durch 5 teilbar sind durch den String "History" und Zahlen, die durch beides teilbar sind durch den String "Digital History"
+# Ersetze Zahlen die durch 3 Teilbar sind durch den String "Digital", Zahlen die durch 5
+# teilbar sind durch den String "History" und Zahlen, die durch beides teilbar sind durch
+# den String "Digital History"
 def task_5():
     for i in range(1, 101):
-        printstring = ""
+        printstr = ""
         if i % 3 == 0:
-            printstring += "Digital "
+            printstr += "Digital "
         if i % 5 == 0:
-            printstring += "History"
-        if printstring == "":
-            printstring = str(i)
-        print(printstring)
+            printstr += "History"
+        if printstr == "":
+            printstr = f"{i}"
+        print(printstr)
 
 
 # call task function dependent on user input
@@ -73,7 +75,7 @@ def call_task(task):
             )
 
 
-# handle user arguments
+# ENTRYPOINT main: handle user arguments
 def main(call_opts):
     argumentlist = call_opts[1:]
     for arg in argumentlist:
@@ -83,6 +85,6 @@ def main(call_opts):
             print("please use 'python zusaetzliche-uebungen.py [task_number]'!")
 
 
-# entrypoint
+# go to entrypoint main if called as main
 if __name__ == "__main__":
     main(sys.argv)
