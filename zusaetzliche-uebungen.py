@@ -80,6 +80,7 @@ def main(call_opts):
     argumentlist = call_opts[1:]
     for arg in argumentlist:
         if arg.isnumeric():
+            print(f"\nOutput der Aufgabe Nr. {arg}:")
             call_task(int(arg))
         else:
             print("please use 'python zusaetzliche-uebungen.py [task_number]'!")
