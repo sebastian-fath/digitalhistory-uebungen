@@ -39,25 +39,29 @@ pip install -r  [aufgabe]-requirements.txt
 ## Aufgabenstellungen
 
 ### zusätzliche Uebungen
-!!! Diese Übungen sind sowohl als Python Datei als auch als Python Notebook verfügbar!!!
-
+> [!INFO] 
+> Diese Übungen sind sowohl als Python Datei als auch als Python Notebook verfügbar
 
 Hier die versprochenen Übungen in aufsteigender Schwierigkeit: 
 
+
+
 1) Gib alle Zahlen von 1 - 100 aus: Die while-Schleife
 
-2) Ersetze in dieser Schleife alle Zahlen die durch drei teilbar sind durch den String "Digital" 
-Beispielausgabe:
-```
+2) Ersetze in dieser Schleife alle Zahlen die durch drei teilbar sind durch den String "Digital"
+<details>
+<summary> Beispielausgabe </summary>
+<br>
 1 
 2
 Digital
 4
 5
-```
+</details>
 3) Ersetze in einer Schleife, die Zahlen die durch fünf teilbar sind durch "History"
-Beispielausgabe:
-```
+<details>
+<summary>Beispielasusgabe</summary>
+
 1
 2
 3
@@ -68,19 +72,23 @@ History
 8
 9
 History
-```
+
+</details>
 4) Kombiniere die Schritte 2 und 3 mit einem Elif, sodass du nicht doppelt ausgibst 
-Beispielausgabe:
-```
+<details>
+<summary>Beispielasusgabe</summary>
+
 1
 2
 Digital
 4
 History
-```
+
+</details>
 5) Ersetze Zahlen die durch 3 Teilbar sind durch den String "Digital", Zahlen die durch 5 teilbar sind durch den String "History" und Zahlen, die durch beides teilbar sind durch den String "Digital History"
-Beispielausgabe:
-```
+<details>
+<summary>Beispielasusgabe</summary>
+
 1
 2
 Digital
@@ -94,7 +102,9 @@ Digital
 14
 Digital History
 16
-```
+
+</details>
+
 Achtung: Nicht alle Methoden haben wir in der Übung besprochen:
 1) Ein IF-Statement kann mehrere Bedingungen enthalten: 
 Syntax-Beispiel:
