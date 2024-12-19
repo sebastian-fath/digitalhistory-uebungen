@@ -29,13 +29,13 @@ pip install -r  [aufgabe]-requirements.txt
 
 ### weihnachtsaufgabe
 > [!NOTE]
-> this project has external dependencies.
+> dieses projekt hat externe dependencies!
 
 `python weihnachtsaufgabe.py <inputfile> <outputfile> [-t (pdf || hocr || txt || alto) -l eng+deu -r 600]`
 
 > [!WARNING]  
-> the software requires [tesseract](https://tesseract-ocr.github.io/) to be installed and available from path. 
-> language data also may need to be installed as needed (see [tessdata](https://github.com/tesseract-ocr/tessdata))
+> die software benötigt, dass auf dem System [tesseract](https://tesseract-ocr.github.io/tessdoc/Downloads.html) installiert ist und über PATH abgerufen werden kann. 
+> möglicherweise müssen auch erweiterte Sprach-Modelle installiert werden (siehe [tessdata](https://github.com/tesseract-ocr/tessdata))
 ## Aufgabenstellungen
 
 ### zusätzliche Uebungen
