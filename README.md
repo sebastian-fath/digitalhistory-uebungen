@@ -1,10 +1,22 @@
 # digitalhistory-uebungen
 
-## usage
+Dieses Repository enthält meine Lösungen der Aufgaben im Rahmen der
+Veranstaltung "Digital History - Update der Geschichtswissenschaften" im
+Wintersemester 2024/2025 an der Universität Heidelberg.
+
+Grundsätzlich ist jede Aufgabe als `.py`-Datei gelöst, deren Name gleich mit dem
+Titel der gestellten Aufgabe im entsprechenden Moodle-Kurs ist. Die
+Aufgabenstellungen der einzelnen Aufgaben finden sich im Abschnitt
+[Aufgabenstellung](#Aufgabenstellung). Das Aufrufen der Dateien benötigt meist
+ein Schema, welches im Abschnitt ["Nutzung"](#Nutzung) angeführt wird.
+vereinzelt sind die Lösungen auch zusätzlich in einer `.ipynb`-Datei übertragen.
+Diese Dateien tragen den gleichen Namen wie die zugrunde liegende `.py`-Datei
+
+## Nutzung
 
 - python zusaetzliche-uebungen.py [tasknumber]
 
-## tasks
+## Aufgabenstellungen
 
 ### zusätzliche Uebungen
 !!! Diese Übungen sind sowohl als Python Datei als auch als Python Notebook verfügbar!!!
@@ -75,5 +87,5 @@ If(Bedingung1 and Bedingung2):
 ```python
 N = 3
 If(N % 3 ==0):
-    Code der ausgeführt werden soll
+    # Code der ausgeführt werden soll
 ```
