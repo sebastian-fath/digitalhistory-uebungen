@@ -28,7 +28,7 @@ pip install -r  [aufgabe]-requirements.txt
 `python zusaetzliche-uebungen.py <tasknumber>`
 
 ### weihnachtsaufgabe
-> [!WARNING]
+> [!NOTE]
 > this project has external dependencies.
 
 `python weihnachtsaufgabe.py <inputfile> <outputfile> [-t (pdf || hocr || txt || alto) -l eng+deu -r 600]`
@@ -39,7 +39,7 @@ pip install -r  [aufgabe]-requirements.txt
 ## Aufgabenstellungen
 
 ### zusätzliche Uebungen
-> [!INFO] 
+> [!NOTE] 
 > Diese Übungen sind sowohl als Python Datei als auch als Python Notebook verfügbar
 
 Hier die versprochenen Übungen in aufsteigender Schwierigkeit: 
