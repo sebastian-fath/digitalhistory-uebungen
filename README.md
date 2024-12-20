@@ -4,17 +4,18 @@ Dieses Repository enthält meine Lösungen der Aufgaben im Rahmen der
 Veranstaltung "Digital History - Update der Geschichtswissenschaften" im
 Wintersemester 2024/2025 an der Universität Heidelberg.
 
-Grundsätzlich ist jede Aufgabe als `.py`-Datei gelöst, deren Name gleich mit dem
-Titel der gestellten Aufgabe im entsprechenden Moodle-Kurs ist. Die
+Grundsätzlich ist jede Aufgabe als `.py`-Datei gelöst. Die
 Aufgabenstellungen der einzelnen Aufgaben finden sich im Abschnitt
 [Aufgabenstellung](#Aufgabenstellung). Das Aufrufen der Dateien benötigt meist
 ein Schema, welches im Abschnitt ["Nutzung"](#Nutzung) angeführt wird.
 Vereinzelt sind die Lösungen auch zusätzlich in einer `.ipynb`-Datei übertragen.
 Diese Dateien tragen den gleichen Namen wie die zugrunde liegende `.py`-Datei
 
+Alle zusammengehörenden Dateien liegen grundsätzlich in einem Ordner mit dem Namen des Aufgabentitel.
+
 Bei Umfangreicheren Aufaben wie beispielsweise der Weihnachtsaufgabe werden
 dependencies benötigt, die nicht standardmäßg bei python in der binary geshipped
-werden. Diese Aufgaben lassen sich an der existenz einer "[Aufgabe]-requirements.txt"
+werden. Diese Aufgaben lassen sich an der existenz einer "requirements.txt"
 erkennen. Ich empfehle dabei die verwendung von Pythons virtual environments:
 ```sh
 python -m venv .venv
@@ -25,13 +26,13 @@ pip install -r  [aufgabe]-requirements.txt
 ## Nutzung
 
 ### zusaetzliche uebungen
-`python zusaetzliche-uebungen.py <tasknumber>`
+`python zusaetzliche-uebungen/zusaetzliche-uebungen.py <tasknumber>`
 
 ### weihnachtsaufgabe
 > [!NOTE]
 > dieses projekt hat externe dependencies!
 
-`python weihnachtsaufgabe.py <inputfile> <outputfile> [-t (pdf || hocr || txt || alto) -l eng+deu -r 600]`
+`python weihnachtsaufgabe/weihnachtsaufgabe.py <inputfile> <outputfile> [-t (pdf || hocr || txt || alto) -l eng+deu -r 600]`
 
 > [!WARNING]  
 > die software benötigt, dass auf dem System [tesseract](https://tesseract-ocr.github.io/tessdoc/Downloads.html) installiert ist und über PATH abgerufen werden kann. 
@@ -148,3 +149,13 @@ rm -rf tmp
 
 Um mich nicht immer erneut an dieses Bash-script zu erinnern, gibt mir diese
 Aufgabe hier die Zeit ein Toolkit dafür zu schreiben :)
+
+
+
+### *eigenständige Uebung*: versuche-mit-nlp
+um mich an den Umgang mit NLP und v.a. staCy zu gewöhnen, ist hier auch meine Uebung dazu zu sehen. 
+Als ursprünglicher Anlass von `versuche-mit-nlp/generator.py` diente die Analyse von den Wahlprogrammen 2025.
+
+> [!NOTE]
+> Da diese Datei intern verständlich dokumentiert ist, wurde vorerst auf einen Eintrag in der
+> (ReadMe)[#Nutzung] verzichtet!
