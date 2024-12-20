@@ -158,4 +158,4 @@ Als ursprünglicher Anlass von `versuche-mit-nlp/generator.py` diente die Analys
 
 > [!NOTE]
 > Da diese Datei intern verständlich dokumentiert ist, wurde vorerst auf einen Eintrag in der
-> (ReadMe)[#Nutzung] verzichtet!
+> [ReadMe](#Nutzung) verzichtet!
