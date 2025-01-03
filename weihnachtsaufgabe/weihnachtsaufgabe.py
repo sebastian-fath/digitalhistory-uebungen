@@ -8,6 +8,8 @@ author: Sebastian Fath
 import sys
 import argparse
 import io
+import os
+from pathlib import Path
 
 from PIL import Image
 import pytesseract
@@ -113,8 +115,14 @@ if __name__ == "__main__":
                 f"ERR | language {lang} is not installed, please install or modify your string to select from your installed languages {pytesseract.get_languages()} '"
             )
 
+    # add handling for inputfile, outputfile: detect cwd
+    cwd = Path(os.getcwd())
+
+    inputfile = cwd / args.inputfile
+    outputfile = cwd / args.outputfile
+
     # call main function with supplied arguments
-    ocr_pdf(args.inputfile, args.outputfile, args.type, args.lang, args.resolution)
+    ocr_pdf(inputfile, outputfile, args.type, args.lang, args.resolution)
 
 
 """
